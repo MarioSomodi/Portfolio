@@ -27,14 +27,12 @@
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#bb0808",GradientType=1);
 }
 
-.violet-gradient {
-  background: #804dee;
-  background: linear-gradient(-90deg, #804dee 0%, rgba(60, 51, 80, 0) 100%);
-  background: -webkit-linear-gradient(
-    -90deg,
-    #804dee 0%,
-    rgba(60, 51, 80, 0) 100%
-  );
+.red-gradient {
+  background: rgb(187, 8, 8);
+  background: -moz-linear-gradient(160deg, rgba(187, 8, 8, 1) 0%, rgba(0, 0, 0, 1) 100%);
+  background: -webkit-linear-gradient(160deg, rgba(187, 8, 8, 1) 0%, rgba(0, 0, 0, 1) 100%);
+  background: linear-gradient(160deg, rgba(187, 8, 8, 1) 0%, rgba(0, 0, 0, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#bb0808", endColorstr="#000000", GradientType=1);
 }
 
 .green-pink-gradient {

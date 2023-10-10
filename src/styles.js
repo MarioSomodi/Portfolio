@@ -5,8 +5,10 @@ const styles = {
 
   heroHeadText:
     'font-black text-white lg:text-[80px] sm:text-[60px] xs:text-[50px] text-[40px] lg:leading-[98px] mt-2',
+  heroText:
+    'text-white font-medium lg:text-[26px] sm:text-[23px] xs:text-[18px] text-[14px] lg:leading-[35px]',
   heroSubText:
-    'text-[#dfd9ff] font-medium lg:text-[30px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px]',
+    'text-white opacity-50 font-small lg:text-[20px] sm:text-[16px] xs:text-[12px] text-[10px] lg:leading-[30px]',
 
   sectionHeadText:
     'text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]',

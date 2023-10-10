@@ -1,0 +1,11 @@
+Model Information:
+* title:	Coffee Break
+* source:	https://sketchfab.com/3d-models/coffee-break-5259ff8aae694b25a24066544aa9a3f4
+* author:	Dasha Klyusova (https://sketchfab.com/AnoFail)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Coffee Break" (https://sketchfab.com/3d-models/coffee-break-5259ff8aae694b25a24066544aa9a3f4) by Dasha Klyusova (https://sketchfab.com/AnoFail) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

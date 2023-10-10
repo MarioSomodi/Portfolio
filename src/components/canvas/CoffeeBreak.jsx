@@ -18,8 +18,6 @@ const CoffeeBreak = () => {
   coffeeBreak.scene.children[0].children[0].children[0].children[53].visible = false;
   return (
     <mesh>
-      <hemisphereLight intensity={0.15} groundColor='black' />
-      <pointLight intensity={1} />
       <primitive
         object={coffeeBreak.scene}
         scale={0.8}
@@ -47,8 +45,8 @@ const CoffeeBreakCanvas = () => {
         />
         <Float
           speed={3}
-          rotationIntensity={1.5} // XYZ rotation intensity, defaults to 1
-          floatIntensity={1} // Up/down float intensity, works like a multiplier with floatingRange,defaults to 1
+          rotationIntensity={1.5}
+          floatIntensity={1}
           floatingRange={[0.1, 0]}
         >
           <CoffeeBreak />

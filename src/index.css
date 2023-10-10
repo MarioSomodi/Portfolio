@@ -107,15 +107,27 @@
 }
 
 /* canvas- styles */
-.canvas-loader {
-  font-size: 10px;
-  width: 1em;
-  height: 1em;
-  border-radius: 50%;
-  position: relative;
-  text-indent: -9999em;
-  animation: mulShdSpin 1.1s infinite ease;
-  transform: translateZ(0);
+.loader {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  background: #FFF;
+  box-sizing: border-box;
+  animation: flipX 1s linear infinite;
+}
+
+@keyframes flipX {
+  0% {
+    transform: perspective(200px) rotateX(0deg) rotateY(0deg);
+  }
+
+  50% {
+    transform: perspective(200px) rotateX(-180deg) rotateY(0deg);
+  }
+
+  100% {
+    transform: perspective(200px) rotateX(-180deg) rotateY(-180deg);
+  }
 }
 
 @keyframes mulShdSpin {

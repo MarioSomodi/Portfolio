@@ -30,6 +30,21 @@ const Hero = () => {
         </div>
       </div>
       <CoffeeBreakCanvas />
+      <div className='absolute bottom-10 sm:right-0 right-10 w-full flex justify-end sm:justify-center items-center'>
+        <a href='#about'>
+          <div className='w-[35px] h-[64px] rounded-3xl border-4 border-white border-opacity-60 flex justify-center items-start p-2'>
+            <motion.div
+              className='w-3 h-3 rounded-full bg-secondary mb-1'
+              animate={{ y: [0, 24, 0] }}
+              transition={{
+                duration: 1.4,
+                repeat: Infinity,
+                repeatType: 'loop',
+              }}
+            />
+          </div>
+        </a>
+      </div>
     </section>
   );
 };
